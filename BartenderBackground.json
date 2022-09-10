@@ -1,0 +1,260 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Lydia",
+				"abbreviation": "LGG",
+				"color": "ff00ff",
+				"full": "Lydia",
+				"authors": [
+					"Lydia"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/lpgleaves",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0,
+		"_dateLastModifiedHash": "272984671c"
+	},
+	"background": [
+		{
+			"name": "Barkeep",
+			"source": "Lydia",
+			"skillProficiencies": [
+				{
+					"persuasion": true,
+					"intimidation": true
+				}
+			],
+			"entries": [
+				{
+					"type": "list",
+					"style": "list-hang-notitle",
+					"items": [
+						{
+							"type": "item",
+							"name": "Skill Proficiencies",
+							"entry": "{@skill Intimidation}, {@skill Persuasion}"
+						},
+						{
+							"type": "item",
+							"name": "Tool Proficiencies",
+							"entry": "Dice set, brewer's supplies"
+						},
+						{
+							"type": "item",
+							"name": "Equipment",
+							"entry": "A dice set, brewer's supplies, a flask filled with your favorite booze, a set of common clothes, and a pouch containing 15 gp"
+						}
+					]
+				},
+				{
+					"name": "Feature: Social Lubricant",
+					"type": "entries",
+					"entries": [
+						"You have no trouble finding and getting into places that serve drinks. While drinking in a social establishment, strangers take a liking to you and feel comfortable enough to share gossip."
+					],
+					"data": {
+						"isFeature": true
+					}
+				},
+				{
+					"name": "Suggested Characteristics",
+					"type": "entries",
+					"entries": [
+						"A barkeep's demeanor ranges from jovial to downright rude. Regardless, all barkeeps know how to take care of business - they break up fights, refer drunk patrons to the bouncer, and offer honest counsel to people down on their luck.",
+						{
+							"type": "table",
+							"colLabels": [
+								"d8",
+								"Personality Trait"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I'm always looking for a good time with good company."
+								],
+								[
+									"2",
+									"I earnestly enjoy offering advice."
+								],
+								[
+									"3",
+									"I'm everyone's outlet, but sometimes I just want to punch them in their thoughless faces."
+								],
+								[
+									"4",
+									"I know how to calm people down, but I also know how to rile them up."
+								],
+								[
+									"5",
+									"It's not all fun and games. Business needs to run smoothly, no matter what that might be."
+								],
+								[
+									"6",
+									"I understand that sometimes a little bit of flirting goes a long way."
+								],
+								[
+									"7",
+									"Drinking on the job is never a problem."
+								],
+								[
+									"8",
+									"If you're looking for a fight, I'll give you one."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Ideal"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"Kindness. Service with a smile is everyone's right. (Good)"
+								],
+								[
+									"2",
+									"Guidance. It's our duty to help others. (Lawful)"
+								],
+								[
+									"3",
+									"Work Ethic. Hard day's work for a hard day's pay. (Neutral)"
+								],
+								[
+									"4",
+									"Self-Betterment. I'm working to be the best I can be. (Any)"
+								],
+								[
+									"5",
+									"Loose Change. The drunk make easy money for stealing. (Evil)"
+								],
+								[
+									"6",
+									"Legacy. We only have one chance to write our story. Do what you will and make it count. (Chaotic)"
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Bond"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"The regulars keep money in my pocket and food on my table; they're like family."
+								],
+								[
+									"2",
+									"My employer saved me from a horrible fate. I want to repay him properly."
+								],
+								[
+									"3",
+									"Brewing is my craft. My art brings people together."
+								],
+								[
+									"4",
+									"I want to be successful. Whatever it takes.."
+								],
+								[
+									"5",
+									"Alcohol is all I need, and sometimes all I want."
+								],
+								[
+									"6",
+									"I've met so many people while staying in the same place. I need my own story to tell."
+								]
+							]
+						},
+						{
+							"type": "table",
+							"colLabels": [
+								"d6",
+								"Flaw"
+							],
+							"colStyles": [
+								"col-1 text-center",
+								"col-11"
+							],
+							"rows": [
+								[
+									"1",
+									"I judge people that don't trink to be antisocial and untrustworthy."
+								],
+								[
+									"2",
+									"I need to know everyone's story."
+								],
+								[
+									"3",
+									"I'm willing to try anything to have a good time."
+								],
+								[
+									"4",
+									"I am a perfect example for why you shouldn't sample your own product."
+								],
+								[
+									"5",
+									"I can never turn down a chance to gamble."
+								],
+								[
+									"6",
+									"My bar was raided, which has led to a natural distrust of authority figures."
+								]
+							]
+						}
+					]
+				}
+			],
+			"toolProficiencies": [
+				{
+					"dice set": true,
+					"brewer's supplies": true
+				}
+			],
+			"startingEquipment": [
+				{
+					"a": [
+						{
+							"special": "brewer's supplies"
+						}
+					],
+					"b": [
+						{
+							"special": "dice set"
+						}
+					]
+				},
+				{
+					"_": [
+						{
+							"special": "common clothes"
+						},
+						{
+							"special": "pouch",
+							"containsValue": 1500
+						}
+					]
+				}
+			]
+		}
+	]
+}
